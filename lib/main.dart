@@ -19,6 +19,11 @@ class MyApp extends StatelessWidget {
           child: RandomWords(),
         ),
       ),
+      theme: ThemeData(
+          appBarTheme: const AppBarTheme(
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
+      )),
     );
   }
 }
